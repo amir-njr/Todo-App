@@ -58,3 +58,38 @@ header button {
   border: 2px solid red;
   color: white;
 }
+#alertMessage {
+  height: 40px;
+  margin: 15px 0;
+  font-weight: bold;
+  border-radius: 8px;
+  overflow: hidden;
+}
+#alertMessage p {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#tb,#tbody {
+  width: 100%;
+}
+th {
+  background: rgb(158, 157, 157);
+  padding: 5px 0;
+}
+#th_1 {
+  border-radius: 6px 0 0 0;
+}
+#th_2 {
+  border-radius: 0 6px 0 0;
+}
+
+/* Custom Class */
+.trStyle {
+  background: rgb(221, 220, 220);
+  text-align: center;
+}
+.trStyle td {
+  padding: 5px 0;
+}

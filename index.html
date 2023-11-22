@@ -12,8 +12,13 @@
         <h1>JavaScript Course | Todo App</h1>
       </div>
       <div>
-        <input type="text" placeholder="Add Todo ..." />
-        <input type="date" />
+        <input
+          data-todo="todo"
+          id="taskTodo"
+          type="text"
+          placeholder="Add Todo ..."
+        />
+        <input data-todo="date" id="dateTodo" type="date" />
         <button id="addTodo">Add</button>
       </div>
       <div id="footer">
@@ -23,6 +28,25 @@
         <button id="deleteAllTodo">Delete All</button>
       </div>
     </header>
+
+    <div id="alertMessage">
+
+    </div>
+
+    <main id="main">
+      <table id="tb">
+        <tr>
+          <th id="th_1">Task</th>
+          <th>Date</th>
+          <th>Status</th>
+          <th id="th_2">Actions</th>
+        </tr>
+      <table id="tbody">
+        <tbody >
+
+        </tbody>
+      </table>
+    </main>
     <script src="./js/js.js"></script>
   </body>
 </html>
