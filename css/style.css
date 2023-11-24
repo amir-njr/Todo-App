@@ -7,7 +7,6 @@
 body {
   max-width: 1200px;
   margin: auto;
-  border: 1px solid red;
 }
 header {
   margin-top: 30px;
@@ -71,7 +70,8 @@ header button {
   justify-content: center;
   align-items: center;
 }
-#tb,#tbody {
+#tb,
+#tbody {
   width: 100%;
 }
 th {
@@ -84,12 +84,33 @@ th {
 #th_2 {
   border-radius: 0 6px 0 0;
 }
-
-/* Custom Class */
-.trStyle {
+#tbody {
+  border: 1px solid red;
   background: rgb(221, 220, 220);
-  text-align: center;
 }
-.trStyle td {
+#tbody td {
+  text-align: center;
   padding: 5px 0;
+  width: 100px;
+}
+#edit,
+#do,
+#delete {
+  padding: 4px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 70px;
+}
+#edit {
+  background: gold;
+  border: 1px solid gold;
+}
+#do {
+  background: lime;
+  border: 1px solid lime;
+}
+#delete {
+  background: red;
+  border: 1px solid red;
 }

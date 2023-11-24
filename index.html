@@ -23,15 +23,15 @@
       </div>
       <div id="footer">
         <div id="filters">
-          <button>All</button><button>Pending</button><button>Completed</button>
+          <button>All</button
+          ><button data-pending="pending" id="pending-filter">Pending</button
+          ><button data-compeleted="compeleted" id="completed-filter">Completed</button>
         </div>
         <button id="deleteAllTodo">Delete All</button>
       </div>
     </header>
 
-    <div id="alertMessage">
-
-    </div>
+    <div id="alertMessage"></div>
 
     <main id="main">
       <table id="tb">
@@ -41,10 +41,7 @@
           <th>Status</th>
           <th id="th_2">Actions</th>
         </tr>
-      <table id="tbody">
-        <tbody >
-
-        </tbody>
+        <tbody id="tbody"></tbody>
       </table>
     </main>
     <script src="./js/js.js"></script>
